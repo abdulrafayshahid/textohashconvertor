@@ -16,4 +16,4 @@ use App\Http\Controllers\PasswordController;
 */
 
 Route::get('/', [ShowController::class, 'show']);
-Route::post('/', [PasswordController::class, 'hashPassword']);
+Route::post('/www', [PasswordController::class, 'hashPassword123']);
